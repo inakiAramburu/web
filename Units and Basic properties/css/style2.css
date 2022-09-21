@@ -1,0 +1,105 @@
+
+:root{
+
+    font-size: 16px;
+}
+
+nav{
+    text-align: center;
+}
+a{
+
+
+    border:solid;
+    
+    border-color: black;
+    border-width: thick;
+    margin: 20px;
+    padding: 20;
+
+}
+
+.Cards{
+    width: 50%;
+    background-color: whitesmoke;
+    margin: 30px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.25);
+    transition: 0.3s;
+}
+
+
+h1{
+
+    text-align: center;
+}
+
+h2{
+    color: white;
+    font-size: 1.2rem;
+    background-color: rgb(180, 14, 14);
+    padding: 50px;
+    text-align: center;
+
+}
+li{
+    
+    border-bottom: solid;
+}
+
+
+ul{
+    padding: 20px;
+
+
+}
+
+li:first-child{
+    background-image: linear-gradient(rgb(110, 109, 109), rgb(255, 255, 255),rgb(255, 255, 255));
+}
+li:last-child{
+    background-image: linear-gradient( rgb(255, 255, 255),rgb(255, 255, 255),rgb(110, 109, 109));
+}
+li:first-child:last-child{
+
+    background-image: linear-gradient( rgb(110, 109, 109),rgb(255, 255, 255),rgb(110, 109, 109));
+
+}
+
+body{
+    background-color: rgb(98, 107, 107);
+    margin: 0;
+    padding: 0;
+
+
+}
+.Cards>p{
+   
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 0px;
+    border-color: black;
+    border-style: dotted;
+    border-width: thin;
+    text-align: justify;
+}
+
+p::first-line{
+
+     font-size: 1.2rem;
+     
+}
+
+p::first-letter{
+
+    font-size: 2em;
+
+}
+.Cards>footer{
+
+    text-align: center;
+    border-style: solid none none none;
+    border-width: thin;
+}
+
+
+
