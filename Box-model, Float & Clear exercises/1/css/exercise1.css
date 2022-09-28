@@ -2,7 +2,7 @@ nav{
     /*margin: 15px;*/
     padding: 12px;
     text-align: center;
-    background-color: red;
+    background-color: rgba(83, 83, 83, 0.747);
 }
 a{
     display:inline-block;
@@ -11,6 +11,7 @@ a{
     border: 1px solid black;
     width: calc(25% - 22px); 
     font-size: 32px;
+    background-color: rgb(101, 99, 223);
     
 }
 
@@ -25,4 +26,8 @@ img{
 .derecha{
     
     float: right;
+}
+
+.cl{
+    clear: left;
 }
