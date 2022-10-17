@@ -1,0 +1,73 @@
+body{
+    background-color: blue;
+}
+
+.calculadora{
+    /* width: 500px;
+    height: 300px; */
+    background-color: red;
+    display: grid;
+    margin: auto;
+    grid-template-areas: 
+    'display display display display'
+    'resultado resultado resultado resultado'
+    'suma resta bider zati'
+    'botoia1 botoia2 botoia3 botoia4'
+    'botoia5 botoia6 botoia7 botoia4'
+    'botoia9 botoia0 botoia00 botoia4'
+    'botoia00 botoia00 botoia00 del';
+
+}
+
+.botonOperaciones{
+    background-color: rgb(51, 51, 51);
+    grid-area:dissplay;
+}
+
+.displayResultado{
+    background-color: rgb(51, 51, 51);
+    grid-area:resultado;
+}
+
+.botonOperacionesSuma{
+    background-color: rgb(109, 107, 107);
+    grid-area: suma;
+}
+.botonOperacionesResta{
+    background-color: rgb(109, 107, 107);
+    grid-area: resta;
+}
+.botonOperacionesBider{
+    background-color: rgb(109, 107, 107);
+    grid-area: bider;
+}
+.botonOperacionesZati{
+    background-color: rgb(109, 107, 107);
+    grid-area: zati;
+}
+
+.boton1{
+    background-color: rgb(133, 131, 131);
+    grid-area: botoia1;
+}
+.boton2{
+    background-color: rgb(133, 131, 131);
+    grid-area: botoia2;
+}
+.boton3{
+    background-color: rgb(133, 131, 131);
+    grid-area: botoia3;
+}
+.boton4{
+    background-color: rgb(133, 131, 131);
+    grid-area: botoia5;
+}
+.boton5{
+    background-color: rgb(133, 131, 131);
+    grid-area: botoia6;
+}
+.boton6{
+    background-color: rgb(133, 131, 131);
+    grid-area: botoia7;
+    
+}
