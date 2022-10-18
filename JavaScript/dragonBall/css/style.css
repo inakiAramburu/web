@@ -1,0 +1,16 @@
+
+body{
+    background-color: tomato;
+}
+section{
+    background-color: white;
+}
+article{
+    background-color: whitesmoke;
+}
+
+img{
+    position:relative;
+    float: right;
+    width: 50%;
+}
