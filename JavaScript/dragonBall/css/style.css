@@ -7,10 +7,30 @@ section{
 }
 article{
     background-color: whitesmoke;
+    border-style: solid;
+    border-color: black;
+    overflow: auto;
+    position: relative;
+    margin: 10px;
 }
 
 img{
-    position:relative;
-    float: right;
+    /*     position:absolute;
+ */    float: right;
     width: 50%;
+    top: 0;
+    right: 0;
+    margin: auto;
+
+    
+}
+main{
+
+    display: flex;
+}
+#DBZ{
+    display: none;
+}
+#DB{
+    display: none;
 }
