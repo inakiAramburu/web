@@ -1,0 +1,346 @@
+:root {
+  --numColumns: 1;
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+
+nav{
+  
+
+  background-color:tomato;
+  overflow: auto;
+}
+figure{
+  position: relative;
+}
+
+a{
+  background-color:steelblue ;
+  display: block ;
+  overflow: auto;
+  color: white;
+  padding: 1em;
+  margin: 1rem;
+  text-align: center ;
+  text-decoration: none;
+  font-size:20px;
+  box-shadow: 3px 3px 2px black;
+  
+}
+nav>a:hover{
+  box-shadow: 1px 1px 2px black;
+}
+
+main{
+  background-color: steelblue;
+  overflow: auto  ;
+}
+
+article{
+  background-color: lightgray;
+  display: block;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+p{
+  width: calc(100%-1em);
+
+  padding: 1em;
+}
+section>ul{
+  padding: 2em;
+
+}
+
+img{
+
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+article{
+  margin: 3em;;
+  border-radius: 12px;
+  border-radius: 12px;
+}
+
+.info{
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+ul{
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+ .info>p{
+  border: solid 1px black;
+} 
+.info>ul{
+  border-top: solid 1px black;
+} 
+article{
+  border: solid 1px black;
+}
+
+
+
+
+figcaption{
+  position: absolute;
+  top:0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.4);
+  color: var(--light);
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  font-weight: bold;
+  font-size: 5em;
+}
+
+footer{
+  width: 100%;
+  background-color: grey;
+  overflow: auto;
+}
+
+button{
+  
+  display: block ;
+  
+  margin: 1rem;
+  width: calc(100% - 2rem);
+  text-align: center;
+
+}
+header{
+  background-color:lightgray ;
+}
+
+h1{
+  padding: 1em;
+  text-align: center;
+}
+
+@media (width >= 567px){
+  :root{
+      --numColumns: 2; 
+  }
+
+  body{
+      display: grid;
+      grid-template-areas: 
+          "header header"
+          "nav main"
+          "footer footer";
+      grid-template-columns: auto 1fr;
+  }
+
+  body > header{
+      grid-area: header;
+  }
+
+  nav{
+      grid-area: nav;
+  }
+
+  main{
+    grid-area:main;
+  }
+
+  footer{
+      grid-area: footer;
+  }
+  .info{
+    
+    display: grid;
+      grid-template-areas: 
+          "credids semester"
+          "profes profes";
+  }
+
+  .credids{
+    grid-area: credids;
+  }
+  .semester{
+    grid-area: semester;
+  }
+  ul{
+    grid-area: profes;
+  }
+
+  footer{
+   display: flex    ;
+  }
+ 
+}
+
+@media (width >= 762px){
+  :root{
+      --numColumns: 2; 
+  }
+
+  body{
+      display: grid;
+      grid-template-areas: 
+          "header header"
+          "main nav"
+          "footer footer";
+      grid-template-columns: 2fr 1fr;
+  }
+
+  body > header{
+      grid-area: header;
+  }
+
+  nav{
+      grid-area: nav;
+  }
+
+  main{
+    grid-area:main;
+  }
+
+  footer{
+      grid-area: footer;
+  }
+  .info{
+    
+    display: grid;
+      grid-template-areas: 
+          "credids semester"
+          "profes profes";
+  }
+
+  .credids{
+    grid-area: credids;
+  }
+  .semester{
+    grid-area: semester;
+  }
+  ul{
+    grid-area: profes;
+  }
+
+  
+
+  main{
+      display: grid;
+      grid-template-areas: 
+          "uno dos";
+  
+      grid-template-columns: 1fr 1fr;
+  } 
+  figcaption{
+    font-size: 50px;;
+  }
+
+}
+
+
+@media (width >= 1024px){
+  :root{
+      --numColumns: 2; 
+  }
+
+  body{
+      display: grid;
+      grid-template-areas: 
+          "header "
+          "nav"
+          "main"
+          "footer";
+      grid-template-columns: 1fr;
+  }
+
+  body > header{
+      grid-area: header;
+  }
+
+  nav{
+      grid-area: nav;
+      display: flex;
+      align-items: center;
+  }
+  
+
+  main{
+    grid-area:main;
+  }
+
+  footer{
+      grid-area: footer;
+  }
+  .info{
+    
+    display: grid;
+      grid-template-areas: 
+          "credids semester"
+          "profes profes";
+  }
+
+  .credids{
+    grid-area: credids;
+  }
+  .semester{
+    grid-area: semester;
+  }
+  ul{
+    grid-area: profes;
+  }
+
+  
+
+  main{
+      display: grid;
+      grid-template-areas: 
+          "uno dos";
+  
+      grid-template-columns: 1fr 1fr 1fr;
+  } 
+  figcaption{
+    font-size: 50px;;
+  }
+
+}
+
+@media (width >= 1200px){
+  :root{
+      --numColumns: 2; 
+  }
+
+  body{
+      display: grid;
+      grid-template-areas: 
+          "header "
+          "nav"
+          "main"
+          "footer";
+      grid-template-columns: 1fr;
+  }
+  main{
+    display: grid;
+    grid-template-areas: 
+        "uno dos";
+
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+} 
+}
+
+.selected{
+  box-shadow:4px 4px 4px 4px red;
+}
+
+
+.hidden{
+  display: none;
+}

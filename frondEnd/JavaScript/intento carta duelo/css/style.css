@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer{
+    text-align: center;
+    background-color: aqua;
+}
+
+main{
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    background-color: brown;
+    gap: 2em;
+    padding: 5em;
+}
+
+/*  */
+
+.card{
+    /* margin: 1.5em; */
+    position: relative;
+}
+
+.top{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    text-align: center;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
+figcaption{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+}
+
+.colorBlancoTransparente{
+    background-color: rgba(56, 56, 56, 0.578);
+    padding: 0.5em;
+}

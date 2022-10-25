@@ -1,0 +1,56 @@
+.primera{
+    display: flex;
+    background-color: darkcyan;
+    font-size: 30px;
+
+    
+}
+
+nav{
+    
+    display: flex;
+    background-color: darkcyan;
+    font-size: 30px;
+    margin-bottom: 10px;
+    
+}
+
+a{
+    text-transform: uppercase;
+    align-content: center;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+body{
+    margin: 0;
+}
+
+.segunda{
+    display: flex;
+    background-color: darkcyan;
+    font-size: 30px;
+    margin-bottom: 10px;
+    justify-content: space-between
+}
+
+.tercera{
+    display: flex;
+    background-color: darkcyan;
+    font-size: 30px;
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+.cuarta{
+    display: flex;
+    background-color: darkcyan;
+    font-size: 30px;
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+
+div{
+    display: flex;
+    background-color: darkcyan;
+    font-size: 30px;
+}

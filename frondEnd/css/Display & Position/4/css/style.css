@@ -1,0 +1,23 @@
+nav{
+
+    top:0;
+    position: sticky;
+    padding: 10px;
+    text-align: center;
+    background-color: aqua;
+    
+}
+a{
+    
+    padding: 10px;    
+    border: solid;
+    border-color: rgb(133, 133, 133);
+    border-width: thick;
+    display:inline-block;
+    width: 15%;
+    text-align: center;
+    font-size: 32px;
+    background-color: rgb(182, 178, 178);
+
+
+}
